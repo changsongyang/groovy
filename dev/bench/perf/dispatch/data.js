@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787038096747,
-  "repoUrl": "https://github.com/apache/groovy",
+  "lastUpdate": 1788955234029,
+  "repoUrl": "https://github.com/changsongyang/groovy",
   "entries": {
     "Dispatch Metrics": [
       {
@@ -2329,6 +2329,58 @@ window.BENCHMARK_DATA = {
           {
             "name": "classes.groovyRuntime",
             "value": 1504,
+            "unit": "classes"
+          },
+          {
+            "name": "bytecode.corpus.bytes",
+            "value": 194226,
+            "unit": "bytes"
+          },
+          {
+            "name": "bytecode.corpus.classes",
+            "value": 57,
+            "unit": "classes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "committer": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "id": "7add18c8ed791e698b425c7431f54d5bdea7a751",
+          "message": "add 5.1.X to SECURITY.md",
+          "timestamp": "2026-09-09T02:08:21Z",
+          "url": "https://github.com/changsongyang/groovy/commit/7add18c8ed791e698b425c7431f54d5bdea7a751"
+        },
+        "date": 1788955233269,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "classes.loaded.total",
+            "value": 4001,
+            "unit": "classes"
+          },
+          {
+            "name": "classes.lambdaForms",
+            "value": 441,
+            "unit": "classes"
+          },
+          {
+            "name": "classes.hidden",
+            "value": 848,
+            "unit": "classes"
+          },
+          {
+            "name": "classes.groovyRuntime",
+            "value": 1505,
             "unit": "classes"
           },
           {
