@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786955262289,
-  "repoUrl": "https://github.com/apache/groovy",
+  "lastUpdate": 1789395996764,
+  "repoUrl": "https://github.com/changsongyang/groovy",
   "entries": {
     "Benchmark": [
       {
@@ -6786,6 +6786,676 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectE_baseline ( {\"size\":\"10000\"} )",
             "value": 0.06605220425042815,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "committer": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "id": "7add18c8ed791e698b425c7431f54d5bdea7a751",
+          "message": "add 5.1.X to SECURITY.md",
+          "timestamp": "2026-09-09T02:08:21Z",
+          "url": "https://github.com/changsongyang/groovy/commit/7add18c8ed791e698b425c7431f54d5bdea7a751"
+        },
+        "date": 1789395992437,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.48006276384258373,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.04952916154162545,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.0049902141865176075,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectC_functionLambda ( {\"size\":\"100\"} )",
+            "value": 1.539189406677731,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectC_functionLambda ( {\"size\":\"1000\"} )",
+            "value": 0.17981818279911718,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectC_functionLambda ( {\"size\":\"10000\"} )",
+            "value": 0.02262309264503608,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectD_functionMethodRef ( {\"size\":\"100\"} )",
+            "value": 1.5316950661611908,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectD_functionMethodRef ( {\"size\":\"1000\"} )",
+            "value": 0.1803681512080329,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectD_functionMethodRef ( {\"size\":\"10000\"} )",
+            "value": 0.022644469144942565,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectE_baseline ( {\"size\":\"100\"} )",
+            "value": 3.2267640771372066,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.305042549487288,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.arrayCollectE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.028855192941120322,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.43218651959963494,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.04652586596882326,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.004684106764462468,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectC_functionLambda ( {\"size\":\"100\"} )",
+            "value": 1.8298139085369254,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectC_functionLambda ( {\"size\":\"1000\"} )",
+            "value": 0.15825755087970927,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectC_functionLambda ( {\"size\":\"10000\"} )",
+            "value": 0.01743460886657606,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectD_functionMethodRef ( {\"size\":\"100\"} )",
+            "value": 1.8651901664499992,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectD_functionMethodRef ( {\"size\":\"1000\"} )",
+            "value": 0.15695100340457457,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectD_functionMethodRef ( {\"size\":\"10000\"} )",
+            "value": 0.017367061711986154,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectE_baseline ( {\"size\":\"100\"} )",
+            "value": 2.023098853691155,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.20040643213584444,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.collectE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.019110098968234273,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.44445252351196773,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.0470944062692819,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.0047066960721553605,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countB_rcurryClosure ( {\"size\":\"100\"} )",
+            "value": 0.10474749889611612,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countB_rcurryClosure ( {\"size\":\"1000\"} )",
+            "value": 0.010995635469043911,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countB_rcurryClosure ( {\"size\":\"10000\"} )",
+            "value": 0.0010904205063656982,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countC_biPredicateParam ( {\"size\":\"100\"} )",
+            "value": 1.575598154260016,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countC_biPredicateParam ( {\"size\":\"1000\"} )",
+            "value": 0.15273186298369365,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countC_biPredicateParam ( {\"size\":\"10000\"} )",
+            "value": 0.015237795257767204,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countD_methodRefParam ( {\"size\":\"100\"} )",
+            "value": 1.575136167361633,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countD_methodRefParam ( {\"size\":\"1000\"} )",
+            "value": 0.15203170984291808,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countD_methodRefParam ( {\"size\":\"10000\"} )",
+            "value": 0.015232081897311978,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countE_baseline ( {\"size\":\"100\"} )",
+            "value": 1.4915829969659469,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.14710633418197328,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.014951984186156345,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countF_sharedRcurry ( {\"size\":\"100\"} )",
+            "value": 0.10847929600100677,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countF_sharedRcurry ( {\"size\":\"1000\"} )",
+            "value": 0.011550441562220399,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countF_sharedRcurry ( {\"size\":\"10000\"} )",
+            "value": 0.001096155321155359,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countG_lambdasCurryWith ( {\"size\":\"100\"} )",
+            "value": 1.5677764422579137,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countG_lambdasCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.15143134543997372,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countG_lambdasCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.01524444556048694,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countH_closuresCurryWith ( {\"size\":\"100\"} )",
+            "value": 2.039113822908543,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countH_closuresCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.2028586845566577,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.countH_closuresCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.01844210166280405,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.4942812095557234,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.04770521921241139,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.004602663156349944,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.43743073118424575,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.044494682042262534,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.00447917234798381,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllB_rcurryClosure ( {\"size\":\"100\"} )",
+            "value": 0.10013169186648244,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllB_rcurryClosure ( {\"size\":\"1000\"} )",
+            "value": 0.01092992058419417,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllB_rcurryClosure ( {\"size\":\"10000\"} )",
+            "value": 0.0010800984562583595,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllC_biPredicateParam ( {\"size\":\"100\"} )",
+            "value": 1.5932461302063001,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllC_biPredicateParam ( {\"size\":\"1000\"} )",
+            "value": 0.1475419540306297,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllC_biPredicateParam ( {\"size\":\"10000\"} )",
+            "value": 0.015101547196700196,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllD_methodRefParam ( {\"size\":\"100\"} )",
+            "value": 1.5938766307766372,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllD_methodRefParam ( {\"size\":\"1000\"} )",
+            "value": 0.1485180072823583,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllD_methodRefParam ( {\"size\":\"10000\"} )",
+            "value": 0.01510909708951814,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllE_baseline ( {\"size\":\"100\"} )",
+            "value": 1.737583618487498,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.16779957640432513,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.01741626327749917,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllF_sharedRcurry ( {\"size\":\"100\"} )",
+            "value": 0.1079164557571715,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllF_sharedRcurry ( {\"size\":\"1000\"} )",
+            "value": 0.011254724239855782,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllF_sharedRcurry ( {\"size\":\"10000\"} )",
+            "value": 0.001136806481420927,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllG_lambdasCurryWith ( {\"size\":\"100\"} )",
+            "value": 1.5819665944068264,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllG_lambdasCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.14553994281118457,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllG_lambdasCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.015405164985045605,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllH_closuresCurryWith ( {\"size\":\"100\"} )",
+            "value": 1.680770699480027,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllH_closuresCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.18668364711933966,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findAllH_closuresCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.016561392346208383,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findB_rcurryClosure ( {\"size\":\"100\"} )",
+            "value": 0.1062000590025837,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findB_rcurryClosure ( {\"size\":\"1000\"} )",
+            "value": 0.011126912881551607,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findB_rcurryClosure ( {\"size\":\"10000\"} )",
+            "value": 0.0010945456922100197,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findC_biPredicateParam ( {\"size\":\"100\"} )",
+            "value": 1.4570535102722704,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findC_biPredicateParam ( {\"size\":\"1000\"} )",
+            "value": 0.1461081675751304,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findC_biPredicateParam ( {\"size\":\"10000\"} )",
+            "value": 0.014950015464123844,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findD_methodRefParam ( {\"size\":\"100\"} )",
+            "value": 1.4754708684672873,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findD_methodRefParam ( {\"size\":\"1000\"} )",
+            "value": 0.14585222238909903,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findD_methodRefParam ( {\"size\":\"10000\"} )",
+            "value": 0.014862876687773308,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findE_baseline ( {\"size\":\"100\"} )",
+            "value": 1.5024743126230666,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.14469725419136006,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.01534675673484153,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findF_sharedRcurry ( {\"size\":\"100\"} )",
+            "value": 0.11196840559209391,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findF_sharedRcurry ( {\"size\":\"1000\"} )",
+            "value": 0.011823296894507267,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findF_sharedRcurry ( {\"size\":\"10000\"} )",
+            "value": 0.0011714773580543381,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findG_lambdasCurryWith ( {\"size\":\"100\"} )",
+            "value": 1.4545662192448918,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findG_lambdasCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.1420957315955141,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findG_lambdasCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.01493512975036993,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findH_closuresCurryWith ( {\"size\":\"100\"} )",
+            "value": 2.045433972557881,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findH_closuresCurryWith ( {\"size\":\"1000\"} )",
+            "value": 0.18529575738282358,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.findH_closuresCurryWith ( {\"size\":\"10000\"} )",
+            "value": 0.01679502504202054,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectA_captureClosure ( {\"size\":\"100\"} )",
+            "value": 0.39272116621936937,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectA_captureClosure ( {\"size\":\"1000\"} )",
+            "value": 0.03821436696830742,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectA_captureClosure ( {\"size\":\"10000\"} )",
+            "value": 0.003737242326013645,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectC_biFunctionLambda ( {\"size\":\"100\"} )",
+            "value": 3.5642421239501116,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectC_biFunctionLambda ( {\"size\":\"1000\"} )",
+            "value": 0.321883102719038,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectC_biFunctionLambda ( {\"size\":\"10000\"} )",
+            "value": 0.03208872945770013,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectD_biFunctionMethodRef ( {\"size\":\"100\"} )",
+            "value": 3.562330567081015,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectD_biFunctionMethodRef ( {\"size\":\"1000\"} )",
+            "value": 0.32202632049011126,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectD_biFunctionMethodRef ( {\"size\":\"10000\"} )",
+            "value": 0.0322097500097441,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectE_baseline ( {\"size\":\"100\"} )",
+            "value": 8.368279301451773,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectE_baseline ( {\"size\":\"1000\"} )",
+            "value": 0.7188171459506051,
+            "unit": "ops/us",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.adhoc.FatFreeLambdaBench.injectE_baseline ( {\"size\":\"10000\"} )",
+            "value": 0.07326374056610721,
             "unit": "ops/us",
             "extra": "iterations: 5\nforks: 2\nthreads: 1"
           }
