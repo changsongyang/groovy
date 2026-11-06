@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793895295228,
+  "lastUpdate": 1793979586839,
   "repoUrl": "https://github.com/changsongyang/groovy",
   "entries": {
     "Benchmark": [
@@ -40188,6 +40188,262 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.propertyMissingSingleName",
             "value": 7.089759754568055,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "committer": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "id": "7add18c8ed791e698b425c7431f54d5bdea7a751",
+          "message": "add 5.1.X to SECURITY.md",
+          "timestamp": "2026-09-09T02:08:21Z",
+          "url": "https://github.com/changsongyang/groovy/commit/7add18c8ed791e698b425c7431f54d5bdea7a751"
+        },
+        "date": 1793979580011,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.apache.groovy.perf.grails.CalibrationBench.allocationChurn",
+            "value": 63.069211691558394,
+            "unit": "us/op",
+            "extra": "iterations: 3\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CalibrationBench.cpuIntegerOps",
+            "value": 374.8336949602528,
+            "unit": "us/op",
+            "extra": "iterations: 3\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CalibrationBench.memoryPointerChase",
+            "value": 1223.8846695709703,
+            "unit": "us/op",
+            "extra": "iterations: 3\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.baselineHotLoop",
+            "value": 0.30514291428694357,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.baselineListSize",
+            "value": 0.2986374980738007,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.baselineMultipleCallSites",
+            "value": 17.272937223624176,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.baselineSteadyStateNoBurst",
+            "value": 0.8039496561278533,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.burstThenSteadyState",
+            "value": 1.3860155179567566,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.crossTypeInvalidationEvery100",
+            "value": 6.1169496985724,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.crossTypeInvalidationEvery1000",
+            "value": 1.7314107731932533,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.crossTypeInvalidationEvery10000",
+            "value": 1.4201982222636294,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.listSizeWithCrossTypeInvalidation",
+            "value": 1.9036523120223574,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.multipleCallSitesWithInvalidation",
+            "value": 20.770361720185747,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CallSiteInvalidationBench.sameTypeInvalidationEvery1000",
+            "value": 53.17361197137294,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.baselineDirectCalls",
+            "value": 0.30071426886304214,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.baselineEquivalentWithoutCategory",
+            "value": 2.68420960943443,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.categoryInLoop",
+            "value": 2874.6768141,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.categoryPerBatch",
+            "value": 167.86971679999996,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.categoryShadowingExistingMethod",
+            "value": 3455.3169317,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.categoryWithOutsideCalls",
+            "value": 4152.277238000001,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.multipleCategoriesSimultaneous",
+            "value": 4273.4902267,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.nestedCategories",
+            "value": 4914.837229999999,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.nestedCategoryOuterWrapping",
+            "value": 5164.2105113,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.singleCategoryWrappingLoop",
+            "value": 150.42721433644687,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.CategoryBench.threeCategoriesSimultaneous",
+            "value": 5785.599461600001,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.baselinePlainMethodCalls",
+            "value": 0.3078214616285676,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.defTypedDispatch",
+            "value": 0.2755787660861534,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.defTypedPolymorphicDispatch",
+            "value": 6.090939862853165,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.expandoInjectedMethodCall",
+            "value": 7.0678900028480625,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.invokeMethodAlternating",
+            "value": 11.048011486786802,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.invokeMethodInterception",
+            "value": 2.115045567114319,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.methodMissingMixedWithReal",
+            "value": 7.195750417133138,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.methodMissingRotatingNames",
+            "value": 24.18305174550219,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.methodMissingSavePattern",
+            "value": 18.089029378289837,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.methodMissingSingleName",
+            "value": 13.578999751071208,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.mixedRealAndInjectedCalls",
+            "value": 3.685945904649445,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.propertyMissingReadWrite",
+            "value": 31.917158213155925,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.propertyMissingRotatingNames",
+            "value": 24.23937064464022,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 2\nthreads: 1"
+          },
+          {
+            "name": "org.apache.groovy.perf.grails.DynamicDispatchBench.propertyMissingSingleName",
+            "value": 6.297939096508486,
             "unit": "ms/op",
             "extra": "iterations: 5\nforks: 2\nthreads: 1"
           }
