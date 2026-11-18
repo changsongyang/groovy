@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794938849829,
+  "lastUpdate": 1795024236687,
   "repoUrl": "https://github.com/changsongyang/groovy",
   "entries": {
     "Compiler Performance": [
@@ -8298,6 +8298,56 @@ window.BENCHMARK_DATA = {
             "name": "compile@groovy-5",
             "value": 430.69666666666666,
             "range": "±17.61",
+            "unit": "ms",
+            "extra": "5.1.2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "committer": {
+            "name": "Paul King",
+            "username": "paulk-asert",
+            "email": "paulk@asert.com.au"
+          },
+          "id": "7add18c8ed791e698b425c7431f54d5bdea7a751",
+          "message": "add 5.1.X to SECURITY.md",
+          "timestamp": "2026-09-09T02:08:21Z",
+          "url": "https://github.com/changsongyang/groovy/commit/7add18c8ed791e698b425c7431f54d5bdea7a751"
+        },
+        "date": 1795024223016,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "compile@current",
+            "value": 509.01,
+            "range": "±21.06",
+            "unit": "ms",
+            "extra": "current"
+          },
+          {
+            "name": "compile@groovy-3",
+            "value": 644.4133333333333,
+            "range": "±215.76",
+            "unit": "ms",
+            "extra": "3.0.25"
+          },
+          {
+            "name": "compile@groovy-4",
+            "value": 572.5133333333333,
+            "range": "±145.14",
+            "unit": "ms",
+            "extra": "4.0.33"
+          },
+          {
+            "name": "compile@groovy-5",
+            "value": 455.3366666666667,
+            "range": "±15.83",
             "unit": "ms",
             "extra": "5.1.2"
           }
